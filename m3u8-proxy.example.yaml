@@ -1,0 +1,12 @@
+# 示例配置文件
+
+# HTTP 请求超时时间
+timeout: 5
+# HTTP 服务监听地址
+addr: :8080
+
+# 真实服务主机
+real_host: "https://live.pamore.net"
+
+# 需要为播放列表中的相对连接添加的地址前缀
+prefix: "https://live.pamore.net/live/"
